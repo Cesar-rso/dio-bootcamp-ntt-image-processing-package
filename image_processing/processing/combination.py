@@ -16,7 +16,7 @@ def transfer_histogram(image1, image2):
     matched_image = match_histograms(image1, image2, multichannel=True)
     return matched_image
 
-def distort_histogram(image1, image2)
+def distort_histogram(image1, image2):
     distorted_image = equalize_hist(image2)
     matched_image = match_histograms(image1, distorted_image, multichannel=True)
     return matched_image

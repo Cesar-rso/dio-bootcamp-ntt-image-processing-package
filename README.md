@@ -1,4 +1,4 @@
-# package_name
+# DIO-Image_Processing
 
 Description. 
 The package dio-image-processing is used to:
